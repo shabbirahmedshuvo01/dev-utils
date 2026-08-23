@@ -1,0 +1,61 @@
+{
+  "name": "@dev_shuvo/dev-utils",
+  "version": "1.0.1",
+  "description": "TypeScript utilities for error handling, performance, dates, query strings, pagination, object cleanup, retries, storage, and data masking.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "utilities",
+    "utils",
+    "developer-tools",
+    "debounce",
+    "pagination",
+    "retry",
+    "timezone",
+    "date",
+    "storage",
+    "security",
+    "error-handling",
+    "query-params",
+    "object-utils"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shabbirahmedshuvo01/dev-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shabbirahmedshuvo01/dev-utils/issues"
+  },
+  "homepage": "https://github.com/shabbirahmedshuvo01/dev-utils#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
+  }
+}
