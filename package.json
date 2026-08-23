@@ -1,6 +1,6 @@
 {
   "name": "@dev_shuvo/dev-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TypeScript utilities for error handling, performance, dates, query strings, pagination, object cleanup, retries, storage, and data masking.",
   "type": "module",
   "main": "./dist/index.js",
